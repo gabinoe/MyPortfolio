@@ -1,31 +1,91 @@
-/* Styles for the navigation menu */
+/* Reset default styles and apply a box-sizing rule */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Apply a background color and font styles to the body */
+body {
+  background-color: #f4f4f4;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+
+/* Add padding and a background color to the header */
+header {
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+}
+
+/* Style the navigation menu */
 nav ul {
   list-style-type: none;
+  display: flex;
+  justify-content: space-between;
 }
 
-nav ul li {
-  display: inline-block;
+nav li {
   margin-right: 10px;
 }
 
-/* Styles for the applications */
-.application {
-  display: inline-block;
-  margin-right: 10px;
+nav a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
 }
 
-.application img {
-  width: 200px;
+nav a:hover {
+  background-color: #555;
+}
+
+/* Style the sections */
+section {
+  padding: 40px;
+  margin-bottom: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 15px;
+}
+
+/* Style the images in the work section */
+.work img {
+  max-width: 100%;
   height: auto;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+/* Add a tooltip to the work section images */
 .tooltip {
   position: absolute;
-  background-color: black;
-  color: white;
-  padding: 5px;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  padding: 4px 8px;
+  border-radius: 4px;
   opacity: 0;
-  transition: opacity 0.3s;
+  transition: opacity 0.3s ease;
 }
 
 .application:hover .tooltip {
