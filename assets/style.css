@@ -1,4 +1,4 @@
-* Styles for the navigation menu *
+/* Styles for the navigation menu */
 nav ul {
   list-style-type: none;
 }
@@ -30,5 +30,4 @@ nav ul li {
 
 .application:hover .tooltip {
   opacity: 1;
-}
 }
