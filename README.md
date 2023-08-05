@@ -24,5 +24,5 @@ This repository contains Myportfolio webpage, designed to showcase my previous w
 
 - Clone the repository:
 
-   git clone https://github.com/
+   git@github.com:gabinoe/MyPortfolio.git
 
