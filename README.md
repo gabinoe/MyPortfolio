@@ -1,6 +1,6 @@
 # My Portfolio
 
-This repository contains the code for Myportfolio webpage, designed to showcase my previous work provide information and contact details.
+This repository contains Myportfolio webpage, designed to showcase my previous work provide information and contact details.
 
 ## Features
 
